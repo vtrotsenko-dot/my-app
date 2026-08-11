@@ -1,0 +1,46 @@
+.header {
+    padding-bottom: 8px; 
+    background-color: #f0e6da;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between; /* Розносить елементи по краях */
+    align-items: center;
+    padding: 16px 15px;
+}
+.emblem {
+    max-width: 100%;
+    width: 60px; /* Зменшено для кращого балансу */
+    height: auto;
+    object-fit: contain; /* Щоб не було розтягнення */
+}
+.headClass{
+    background: none;        /* Прибирає фон */
+    border: none;            /* Прибирає рамку */
+    padding: 0;              /* Прибирає внутрішні відступи */
+    cursor: pointer;         /* Робить курсор у вигляді вказівника при наведенні */
+    display: flex;           /* Допомагає правильно вирівняти іконку всередині */
+    align-items: center;
+    justify-content: center;
+}
+
+.menuBtn{
+        background: none;        /* Прибирає фон */
+    border: none;            /* Прибирає рамку */
+    padding: 0;              /* Прибирає внутрішні відступи */
+    cursor: pointer;         /* Робить курсор у вигляді вказівника при наведенні */
+    display: flex;           /* Допомагає правильно вирівняти іконку всередині */
+    align-items: center;
+    justify-content: center;
+}
+
+.menuBtn img {
+  display: block;
+  width: 27px;
+  height: auto;
+}
+
+
+
+

@@ -1,0 +1,86 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-start; /* Панель з'являється зліва */
+}
+.sidebar{
+  width: 80%;
+  max-width: 400px;
+  height: 100%;
+  background-color: #f4eee0; /* Бежевий колір під ваш дизайн */
+  padding: 40px 20px;
+  position: relative;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.headerTittle{
+  text-align: center;
+  font-size: 20px;
+}
+.contact-item h4{
+    display: flex;
+    margin: 0;
+    line-height: 0.8;
+    font-size: 20px;
+  }
+
+.socMeseg{
+  display: block;
+  text-align: center;
+
+}
+
+.socMeseg h4 {
+  font-size: 24px;
+  margin: 20px;
+}
+.meregElement{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    cursor: pointer; 
+    width: 120px;
+    height: 50px;
+    margin-bottom: 0;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+    font-family: 'Marck Script', cursive;
+    background: transparent;
+    color: #000;
+  }
+.sylky{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 22px;
+  width: 100%;
+}
+.blok{
+    display: flex;
+    flex-direction: column; /* Ставить кожен .contact-item один під одним */
+    padding-left: 16px;
+    padding-top: 38px;
+    padding-bottom: 30px;
+}

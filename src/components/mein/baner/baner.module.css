@@ -1,0 +1,20 @@
+.baner{
+  background-image: url('/public/vazerunokSection.svg');
+  background-position: center;
+  background-repeat: repeat-x;
+  height: 40px;
+}
+.photo{
+  width: 100%;  
+  height: auto;  
+  display: block;  
+  object-fit: cover; 
+}
+
+.classh3{
+    line-height: 1
+}
+
+.mainButton{
+    font-size: 32px;
+}
