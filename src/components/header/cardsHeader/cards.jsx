@@ -22,10 +22,12 @@ const kontakts = [
     img: '/iconInfo/Clock.webp',
   },
 ];
-const HeaderCards = () => {
+const HeaderCards = ({ type }) => {
+  const visibleKontakts = type ? kontakts : kontakts.slice(1);
+
   return (
     <div>
-      {kontakts.map((item) => (
+      {visibleKontakts.map((item) => (
         <div key={item.id} className={style.headerContent}>
           <img src={item.img} alt={item.name} />
           <div className={style.heaederh4}>
@@ -35,6 +37,6 @@ const HeaderCards = () => {
       ))}
     </div>
   );
-}
+};
 
 export default HeaderCards

@@ -1,3 +1,6 @@
+.fistScreen{
+  min-height: calc(100dvh - 80px); height: auto;
+}
 .baner{
   background-image: url('/public/vazerunokSection.svg');
   background-position: center;
@@ -14,8 +17,10 @@
 .classh3{
   font-size: 22px;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1;
   margin-bottom: 25px;
+  margin-top: 20px;
+  
 }
 
 .mainButton{

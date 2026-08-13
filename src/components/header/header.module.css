@@ -11,7 +11,7 @@
 }
 .emblem {
     max-width: 100%;
-    width: 60px; /* Зменшено для кращого балансу */
+    width: 50px; /* Зменшено для кращого балансу */
     height: auto;
     object-fit: contain; /* Щоб не було розтягнення */
 }
