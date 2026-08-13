@@ -1,0 +1,22 @@
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 колонки однакової ширини */
+  gap: 15px; /* Відстань між фото */
+  max-width: 500px; /* Обмеження ширини для мобільного */
+  margin: 0 auto; /* Центрування всієї галереї на сторінці */
+  padding-left:16px; 
+  padding-right: 16px;
+  padding-bottom: 28px;
+
+}
+
+
+.galleryGrid img {
+  width: 100%; /* Фото завжди підлаштовується під ширину колонки */
+  height: auto; /* Зберігає пропорції */
+  display: block; /* Прибирає зайві відступи під картинкою */
+  border-radius: 8px; /* Якщо хочете заокруглені кути, як у дизайні */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  /* 3. Легка тонка рамка для вишуканості */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}

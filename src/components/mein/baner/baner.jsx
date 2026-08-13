@@ -1,5 +1,5 @@
 import style from "./baner.module.css";
-import MainButton from "./meinButton/mainButton";
+import MainButton from "../meinButton/mainButton";
 const Baner = () => {
   return (
     <div>
@@ -16,6 +16,8 @@ const Baner = () => {
         </h3>
 
       <MainButton />
+
+  
       </div>
     </div>
   );

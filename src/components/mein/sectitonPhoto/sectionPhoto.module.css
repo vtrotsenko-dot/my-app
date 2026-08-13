@@ -1,0 +1,10 @@
+.galleryTitle {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.classHr {
+  margin: 30px 0;
+  border: 0;
+  border-top: 1px solid #000;
+}
