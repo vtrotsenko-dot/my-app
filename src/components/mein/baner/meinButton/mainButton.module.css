@@ -1,0 +1,24 @@
+.mainBnt {
+    text-decoration: none;      /* Прибирає підкреслення */
+}
+
+.mainButton {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px; /* Відступ між кнопками */
+  padding: 8px;
+  background: transparent;
+  border: 2px solid #000; /* Чорна рамка */
+  font-family: 'Marck Script', cursive;
+  font-size: 42px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none; 
+  color: #000;
+}
+.mainButton:active, 
+.mainButton:focus {
+  background-color: transparent;
+    outline: none;
+    box-shadow: none;
+}

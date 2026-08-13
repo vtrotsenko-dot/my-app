@@ -1,4 +1,5 @@
 import style from "./baner.module.css";
+import MainButton from "./meinButton/mainButton";
 const Baner = () => {
   return (
     <div>
@@ -14,14 +15,7 @@ const Baner = () => {
           напоями на просторій терасі з чудовим видом на центр міста.
         </h3>
 
-        <div>
-          <a href="/" className={style.mainBnt}>
-            <button className={style.mainButton}>МЕНЮ</button>
-          </a>
-          <a href="/" className={style.mainBnt}>
-            <button className={style.mainButton}>Банкети та кейтеринг</button>
-          </a>
-        </div>
+      <MainButton />
       </div>
     </div>
   );

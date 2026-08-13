@@ -1,4 +1,5 @@
 import HeaderCards from "../cardsHeader/cards";
+import Socmereg from "../socMereg/socMereg";
 import style from "./infoHeader.module.css";
 
 const InfoHeader = ({ onClose }) => {
@@ -21,16 +22,9 @@ const InfoHeader = ({ onClose }) => {
 
         <div className={style.socMeseg}>
           <h4> Ми в соц мережах</h4>
-          <div className={style.sylky}>
-            <div className={style.meregElement}>
-              <img src="/iconInfo/Facebook.svg" alt="" />
-              <p>Facebook</p>
-            </div>
-            <div className={style.meregElement}>
-              <img src="/iconInfo/Instagram.svg" alt="" />
-              <p>instagram</p>
-            </div>
-          </div>
+            <Socmereg />
+
+
         </div>
       </div>
     </div>

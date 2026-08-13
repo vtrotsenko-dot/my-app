@@ -12,9 +12,20 @@
 }
 
 .classh3{
-    line-height: 1
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 25px;
 }
 
 .mainButton{
     font-size: 32px;
+}
+
+.meinMiddle {
+  max-width: 450px; /* Обмежуємо ширину для мобільного */
+  margin: 0 auto; /* Центруємо на екрані */
+  padding: 20px;
+  text-align: center;
+  font-family: 'Marck Script', cursive; /* Ваш шрифт */
 }

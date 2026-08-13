@@ -53,30 +53,7 @@
   font-size: 24px;
   margin: 20px;
 }
-.meregElement{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-    cursor: pointer; 
-    width: 120px;
-    height: 50px;
-    margin-bottom: 0;
-    border: 2px solid #000;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 8px;
-    font-family: 'Marck Script', cursive;
-    background: transparent;
-    color: #000;
-  }
-.sylky{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  gap: 22px;
-  width: 100%;
-}
+
 .blok{
     display: flex;
     flex-direction: column; /* Ставить кожен .contact-item один під одним */
