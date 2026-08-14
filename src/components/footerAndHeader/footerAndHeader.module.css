@@ -3,8 +3,8 @@
   font-size: 20px;
 }
 
-.heaederh4{
-  padding-left: 12px;
+.heaedertext{
+  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -19,7 +19,6 @@
 .socMeseg{
   display: block;
   text-align: center;
-
 }
 
 .socMeseg h4 {

@@ -4,22 +4,42 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-  display: flex;
-  justify-content: flex-start; /* Панель з'являється зліва */
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  
+  opacity: 0;
+  pointer-events: none;
+  
+  /* При закритті чекаємо 0.3s (поки sidebar виїде) і плавно ховаємо фон */
+  transition: opacity 0.2s ease 0.3s;
 }
-.sidebar{
+
+.backdropOpen {
+  opacity: 1;
+  pointer-events: auto;
+  
+  /* При відкритті фон з'являється одразу */
+  transition: opacity 0.2s ease 0s;
+}
+
+.sidebar {
   width: 80%;
   max-width: 400px;
   height: 100%;
-  background-color: #f4eee0; /* Бежевий колір під ваш дизайн */
-  padding: 40px 20px;
+  background-color: #f4eee0;
+  padding-top: 50px;
   position: relative;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebarOpen {
+  transform: translateX(0);
 }
 
 .closeBtn {

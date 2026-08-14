@@ -25,3 +25,7 @@ body {
   padding: 0;
   background-color: #f0e6da;
 }
+a{
+all: unset;
+  cursor: pointer; /* Обов'язково повертаємо курсор-вказівник (ручку) */
+}

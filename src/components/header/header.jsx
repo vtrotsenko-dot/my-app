@@ -31,7 +31,7 @@ const Header = () => {
         </button>
 
         {/* Висувна панель підключається як окремий компонент */}
-        {isOpen && <InfoHeader onClose={closeMenu} />}
+        <InfoHeader isOpen={isOpen} onClose={closeMenu} />
       </div>
     </div>
   );
