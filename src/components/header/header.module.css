@@ -40,6 +40,10 @@
   width: 27px;
   height: auto;
 }
+.emblemOther {
+  width: 14px;        /* перевизначить ширину */
+  height: 24px;       /* перевизначить висоту */
+}
 
 
 

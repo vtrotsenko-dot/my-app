@@ -1,0 +1,46 @@
+.mainFoto{
+    width: 100%;
+    overflow: hidden; /* Якщо фото більше контейнера, обріжемо зайве */
+}
+.photo {
+width: 100%;
+    height: auto;
+    object-fit: contain; /* Змінює спосіб масштабування */
+}
+.banketOll{
+    padding: 16px;
+}
+
+.banketCards{
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.banquetTitle {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.banketHr{
+    border: none;             /* Прибираємо стандартну рамку */
+    height: 1px;              /* Встановлюємо висоту (товщину) лінії */
+    background-color: #000000; /* Колір лінії (змініть на свій) */
+    width: 100%;              /* Займає всю доступну ширину */
+    padding: 0;
+    margin: 0;
+}
+
+.banketText{
+    padding: 0 15px;
+    font-size: 18px;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+}
+.banketsubheading{
+    padding: 16px; 
+    font-size: 22px;
+    text-align: center;
+}
