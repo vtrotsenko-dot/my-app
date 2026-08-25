@@ -1,0 +1,68 @@
+.Dish {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.Dish h4{
+    font-size: 16px;
+}
+
+.forDish{
+    width: 70%;
+    border-right: 2px solid black;
+    padding-bottom: 20px;
+    background-color: #f0e6da;
+    position: relative;
+    padding-left: 16px;
+
+}
+.forDish::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  width: 70%;
+  height: 0.5px;
+  background-color: #000;
+}
+
+.namePrice {
+
+    padding: 0;
+    gap: 0;
+    display: grid;
+    justify-content: space-between; /* Назва зліва, ціна справа */
+    align-items: baseline; 
+    grid-template-columns: 1fr auto;        /* КЛЮЧОВЕ: вирівнює текст по спільній нижній лінії */
+    margin: 0;
+}
+.namePrice h3{
+  margin: 0;
+  font-size: 20px;
+  
+}
+.namePrice h2{
+  padding-right: 5px;
+  margin: 0;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.description {
+   font-size: 12px;
+    font-weight: normal;
+    color: #414141;
+    margin: 0;
+    max-width: 75%;
+}
+.weightContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Відстань між іконкою та текстом */
+    margin: 8px 0 0 0;
+}
+.weightContainer h5{
+    font-size: 15px;
+  margin: 0;
+}

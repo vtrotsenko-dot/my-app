@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,8 +8,9 @@ h2,
 h3,
 h4,
 h1,
-span {
-  font-family: 'Marck Script', cursive;
+h5,
+h6 span {
+  font-family: "Marck Script", cursive;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -17,15 +18,13 @@ span {
   padding: 0;
 }
 
-
-
 html,
 body {
   margin: 0;
   padding: 0;
   background-color: #f0e6da;
 }
-a{
-all: unset;
+a {
+  all: unset;
   cursor: pointer; /* Обов'язково повертаємо курсор-вказівник (ручку) */
 }

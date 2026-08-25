@@ -1,0 +1,52 @@
+.nameSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;        /* Гарантує ширину на весь екран */
+    box-sizing: border-box;
+    overflow-x: hidden
+  }
+
+.nameSection h2 {
+    align-items: center;
+    font-size: 38px;  
+    padding: 8px;  
+    margin: 0px;
+    font-family: 'Marck Script', cursive;
+    background-color: #f0e6da;
+    max-width: 100%; 
+    overflow: visible;
+    text-overflow: clip;
+    line-height: 0.8;
+    text-align: center;
+}
+
+.nameSection img {
+    display: block;
+    height: auto;       /* Висота під текст */
+    max-width: 100%;
+}
+
+
+.dishList .Dish:not(:last-child) {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  width: 70%;
+  height: 1px;
+  background-color: #000;
+}
+
+.dishList {
+  display: flex;
+  flex-direction: column;
+  padding:0;
+  background-repeat: no-repeat;
+  /* Опціонально: задаємо позицію, щоб воно не "прилипало" до верхнього лівого кута */
+  background-position: right  ; 
+  background-size: contain;
+  
+  
+}
