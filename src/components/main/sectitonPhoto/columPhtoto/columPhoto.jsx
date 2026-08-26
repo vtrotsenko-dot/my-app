@@ -4,51 +4,51 @@ const Colum = () => {
     const galeryPhoto = [
     {
         id: 1, 
-        url: "/photo_baru/Maskgroup.webp"
+        url: "/photo_baru/Maskgroup.png"
     },
     {
         id: 2, 
-        url: "/photo_baru/Maskgroup1.webp"
+        url: "/photo_baru/Maskgroup1.png"
     },
     {
         id: 3, 
-        url: "/photo_baru/Maskgroup2.webp"
+        url: "/photo_baru/Maskgroup2.png"
     },
     {
         id: 4, 
-        url: "/photo_baru/Maskgroup3.webp"
+        url: "/photo_baru/Maskgroup3.png"
     },
     {
         id: 5, 
-        url: "/photo_baru/Maskgroup4.webp"
+        url: "/photo_baru/Maskgroup4.png"
     },
     {
         id: 6, 
-        url: "/photo_baru/Maskgroup5.webp"
+        url: "/photo_baru/Maskgroup5.png"
     },
         {
         id: 7, 
-        url: "/photo_baru/Maskgroup6.webp"
+        url: "/photo_baru/Maskgroup6.png"
     },
         {
         id: 8, 
-        url: "/photo_baru/Maskgroup7.webp"
+        url: "/photo_baru/Maskgroup7.png"
     },
         {
         id: 9, 
-        url: "/photo_baru/Maskgroup8.webp"
+        url: "/photo_baru/Maskgroup8.png"
     },
         {
         id: 10, 
-        url: "/photo_baru/Maskgroup9.webp"
+        url: "/photo_baru/Maskgroup9.png"
     },
     {
         id: 11, 
-        url: "/photo_baru/Maskgroup10.webp"
+        url: "/photo_baru/Maskgroup10.png"
     },
     {
         id: 12, 
-        url: "/photo_baru/Maskgroup11.webp"
+        url: "/photo_baru/Maskgroup11.png"
     },
 ]
     
