@@ -8,7 +8,7 @@ import PodText from "./podText/podText";
 const BanketAndKeytering = () => {
   return<div>
     <Header />
-    <Banerok />
+    <Banerok type={'Banket'}/>
     <BnkKeyText />
     <PodText />
     <FooterAndHeader type={false}/>

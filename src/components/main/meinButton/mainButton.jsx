@@ -16,7 +16,7 @@ const MainButton = () => {
   return (
     <div>
       {bnt.map((item) => (
-        <Link to={item.url} className={style.mainBnt} id={item.id}>
+        <Link to={item.url} className={style.mainBnt} id={item.id} onClick={() => window.scrollTo(0, 0)}>
           <button className={style.mainButton}
           style={{
             fontSize: item.id === 2 ? '32px' : undefined 

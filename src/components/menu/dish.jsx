@@ -713,7 +713,7 @@ export const  Dish = {
             description: 'Горілка, Triple Sec, сік лайма',
         },
         {
-            id: 101,
+            id: 106,
             name: 'Зелений мексиканець',
             category: 'Shot',
             price: 100,
@@ -753,7 +753,7 @@ export const  Dish = {
             description: 'Кавовий лікер, Baileys, Triple Sec',
         },
         {
-            id: 103,
+            id: 105,
             name: 'Б - 53',
             category: 'Shot',
             price: 120,
@@ -766,7 +766,7 @@ export const  Dish = {
 
 
 
-export const MENUСATEGORIES = [
+export const MENUCATEGORIES = [
     {
         id: 'breakfasts',
         href: '#breakfasts',

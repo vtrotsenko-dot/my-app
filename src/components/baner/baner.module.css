@@ -1,8 +1,14 @@
 .introEmbleme {
   width: 100%;
 }
-.zagolovok {
+.zagolovokBanket {
   font-size: 34px;
+  margin: 0;
+  padding: 8px 13px;
+  text-align: center;
+}
+.zagolovokMenu{
+  font-size: 42px;
   margin: 0;
   padding: 8px 13px;
   text-align: center;
