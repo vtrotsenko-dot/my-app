@@ -1,6 +1,7 @@
 import Banerok from "../baner/baner";
 import FooterAndHeader from "../footerAndHeader/footerAndHeader";
 import Header from "../header/header";
+import ScrollToTopButton from "./buttonToUp/buttonToUp";
 import Category from "./category/category";
 import Scroll from "./scroll/scroll";
 
@@ -14,6 +15,7 @@ const Menu = () => {
       <Scroll />
       <Category />
       <FooterAndHeader type={false} />
+      <ScrollToTopButton />
     </div>
   );
 };

@@ -1,0 +1,46 @@
+.toUp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  
+  /* Вирівнювання символу exact по центру */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Оформлення кнопки */
+  border-radius: 50%;
+  background-color: #f2ebe3;
+  color: #030202;
+  /* border: 2px solid rgb(0, 0, 0); */
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); */
+  z-index: 9999;
+
+  /* Початковий стан (прихована) */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, border-color 0.2s ease;
+}
+
+/* Ефект при наведенні курсора */
+.toUp:hover {
+  border-color: rgb(255, 0, 0);
+  transform: translateY(-2px);
+}
+
+/* Стан видимості */
+.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
