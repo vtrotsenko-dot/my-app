@@ -17,7 +17,7 @@ const BnkKeyText = () => {
                 проведення заходу.`
     },
     {
-      id: 1,
+      id: 2,
       name: "Банкет",
       text: `Наш банкетний зал вміщує до 150 гостей та чудово підходить для
                 весіль, ювілеїв, корпоративів, випускних, хрестин і сімейних
@@ -35,7 +35,7 @@ const BnkKeyText = () => {
   return (
     <div>
       {bloktext.map((item) => (
-        <div className={style.banketOll}>
+        <div className={style.banketOll} key={item.id}>
           <div className={style.banketCards}>
             <h2 className={style.banquetTitle}>{item.name}</h2>
             <hr className={style.banketHr} />

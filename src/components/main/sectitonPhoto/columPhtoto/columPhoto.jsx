@@ -55,9 +55,9 @@ const Colum = () => {
     
     return(
 
-        <div class={style.galleryGrid}>
+        <div className={style.galleryGrid}>
             {galeryPhoto.map((item) => (
-                <img src={item.url} id = {item.id} alt="#" />
+                <img src={item.url} key={item.id} id = {item.id} alt="#" />
             ))}
 
         </div>

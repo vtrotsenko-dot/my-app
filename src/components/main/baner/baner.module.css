@@ -6,12 +6,65 @@
   background-position: center;
   background-repeat: repeat-x;
   height: 40px;
+  @media (min-width: 480px) {
+    background-size: 500px auto;
+    background-repeat: repeat-x;
+  }
+    @media (min-width: 835px) {
+      height: 80px;
+    background-size: 650px auto;
+    background-repeat: repeat-x;
+  }
 }
-.photo{
-  width: 100%;  
-  height: auto;  
-  display: block;  
-  object-fit: cover; 
+.conteinerPhoto {
+  display: flex;
+  flex-direction: column; /* На мобілці елементи один під одним */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Відстань між фото і текстом */
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .conteinerPhoto {
+    flex-direction: row; /* Від 768px фото і текст стають поруч */
+    justify-content: center;
+    align-items: center; /* Центрування по вертикалі */
+    gap: 40px; /* Більший відступ для великих екранів */
+  }
+}
+
+.textBaner {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .textBaner {
+    display: block;
+    /* clamp(мінімальний_шрифт, адаптивний_розмір, максимальний_шрифт) */
+    font-size: clamp(18px, 1.8vw, 28px);
+    font-weight: normal;
+    line-height: 1.4; /* Більш комфортна висота рядка для блоку тексту */
+    
+    /* Дозволяємо тексту бути гнучким блоком: */
+    flex: 1; 
+    min-width: 200px;
+    max-width: 500px; /* Адекватна максимальна ширина, щоб текст не розтягувався на 1 строчку через весь екран */
+    margin: 0;
+  }
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-width: 650px;
+  flex: 1; /* Займає рівну частку з текстом */
+  @media (min-width: 768px) {
+    width: 400px;
+    max-width: 700px;
+  }
 }
 
 .classh3{
@@ -20,6 +73,9 @@
   line-height: 1;
   margin-bottom: 25px;
   margin-top: 20px;
+  @media (min-width: 768px) {
+    display: none;
+  }
   
 }
 

@@ -18,14 +18,14 @@ const Socmereg = () => {
   return (
     <div className={style.sylky}>
       {mereg.map((item) => (
-        <a href={item.url} 
-        target="_blank" 
-        rel="noopener noreferrer">
-          <div className={style.meregElement} id={item.id}>
-            <img src={item.img} alt="" />
-            <p>{item.name}</p>
-          </div>
-        </a>
+        <div key={item.id}>
+          <a href={item.url} target="_blank" rel="noopener noreferrer">
+            <div className={style.meregElement} id={item.id}>
+              <img src={item.img} alt="" className={style.meregIcon} />
+              <p className={style.meregText}>{item.name}</p>
+            </div>
+          </a>
+        </div>
       ))}
     </div>
   );
