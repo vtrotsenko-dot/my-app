@@ -7,9 +7,9 @@ const Category = () => {
     {MENUCATEGORIES.map((item) => (
         <section id={item.id} key={item.id} style={{scrollMarginTop: '80px'}}>
           <div className={style.nameSection}>
-            <img src="/vazerunokSection.svg" alt="#" />
+            <div className= {style.vizerunok} style={{backgroundPosition: 'right'}}></div>
             <h2>{item.text}</h2>
-            <img src="/vazerunokSection.svg" alt="#" />
+            <div className= {style.vizerunok} style={{backgroundPosition: 'left'}}></div>
           </div>
 
           <ul

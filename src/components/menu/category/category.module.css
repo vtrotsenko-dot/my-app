@@ -1,35 +1,34 @@
 .nameSection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;        /* Гарантує ширину на весь екран */
-    box-sizing: border-box;
-    overflow-x: hidden
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  box-sizing: border-box;
+}
 
 .nameSection h2 {
-    align-items: center;
-    font-size: 38px;  
-    padding: 8px;  
-    margin: 0px;
-    font-family: 'Marck Script', cursive;
-    background-color: #f0e6da;
-    max-width: 100%; 
-    overflow: visible;
-    text-overflow: clip;
-    line-height: 0.8;
-    text-align: center;
+  align-items: center;
+  font-size: 38px;
+  padding: 0 15px;
+  margin: 0px;
+  font-family: "Marck Script", cursive;
+  background-color: #f0e6da;
+  max-width: 100%;
+  overflow: visible;
+  text-overflow: clip;
+  line-height: 0.8;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .nameSection img {
-    display: block;
-    height: auto;       /* Висота під текст */
-    max-width: 100%;
+  display: block;
+  height: auto; 
+  max-width: 100%;
 }
 
-
 .dishList .Dish:not(:last-child) {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   bottom: 10px;
@@ -37,16 +36,22 @@
   width: 70%;
   height: 1px;
   background-color: #000;
+  color: #000;
 }
 
 .dishList {
   display: flex;
   flex-direction: column;
-  padding:0;
+  padding: 0;
   background-repeat: no-repeat;
-  /* Опціонально: задаємо позицію, щоб воно не "прилипало" до верхнього лівого кута */
-  background-position: right  ; 
+  background-position: right;
   background-size: contain;
-  
-  
+}
+
+.vizerunok {
+  flex: 1;
+  height: 60px; /* Спробуйте значення від 50px до 80px */
+  background-image: url(/public/vazerunokSection.svg);
+  background-repeat: repeat-x;
+  background-size: auto 40px;
 }

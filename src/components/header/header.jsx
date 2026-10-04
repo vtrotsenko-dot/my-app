@@ -18,25 +18,23 @@ const Header = () => {
     <div className={style.header}>
       <div className={style.headerContainer}>
         
-        {/* NavLink + end підтягує isActive = true ТІЛЬКИ на головній сторінці "/" */}
         <NavLink 
           to="/" 
           end 
           className={({ isActive }) => 
             isActive 
               ? style.headClass 
-              : `${style.headClass} ${style.headClassOther || ''}` // Посилання на інших сторінках
+              : `${style.headClass} ${style.headClassOther || ''}` 
           }
         >
           {({ isActive }) => (
             <img 
-              // Якщо ми на головній ("/") -> favicon.svg, якщо на іншій -> нове фото
               src={isActive ? "/favicon.svg" : "/headerBack.svg"} 
               alt="Логотип" 
               className={
                 isActive 
                   ? style.emblem 
-                  : `${style.emblem} ${style.emblemOther || ''}` // Фото на інших сторінках
+                  : `${style.emblem} ${style.emblemOther || ''}` 
               } 
             />
           )}

@@ -1,10 +1,15 @@
 .banketOll{
+    display: flex;
     padding: 16px;
+    justify-content: center;
 }
 
 .banketCards{
     border: 2px solid #000;
     border-radius: 8px;
+    @media (min-width: 780px) {
+        width: 80%;        
+    }
 }
 
 .banquetTitle {

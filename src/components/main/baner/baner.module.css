@@ -8,12 +8,10 @@
   height: 40px;
   @media (min-width: 480px) {
     background-size: 500px auto;
-    background-repeat: repeat-x;
   }
     @media (min-width: 835px) {
       height: 80px;
-    background-size: 650px auto;
-    background-repeat: repeat-x;
+    background-size: 890px auto;
   }
 }
 .conteinerPhoto {
